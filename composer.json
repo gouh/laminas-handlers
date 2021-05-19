@@ -2,6 +2,7 @@
     "name": "gouh/laminas-handlers",
     "description": "JsonResponse implementation of laminas/diactoros with a structured data and Data Transfer Object class.",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hugo Hernández Valdez",
