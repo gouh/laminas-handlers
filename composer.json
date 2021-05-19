@@ -1,0 +1,23 @@
+{
+    "name": "gouh/laminas-handlers",
+    "description": "JsonResponse implementation of laminas/diactoros with a structured data and Data Transfer Object class.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hugo Hernández Valdez",
+            "email": "hugohv10@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3",
+        "laminas/laminas-diactoros": "^2.3.0",
+        "lukasoppermann/http-status": "^3.1",
+        "fig/http-message-util": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "StructuredHandlers\\": "src/"
+        }
+    }
+}
