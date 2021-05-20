@@ -45,6 +45,7 @@ You can use class DataTransferObject for extends in your DTO
 class MyDtoRequest extends DataTransferObject {
     public $className;
     public $version;
+    public $property;
 }
 ```
 
