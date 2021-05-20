@@ -81,6 +81,7 @@ class JsonResponse extends JsonResponseDiactoros
                 'is_error' => $this->isError,
                 'http_status' => $this->httpStatusCode,
                 'http_status_phrase' => $this->httpReasonPhrase,
+                'time' => time(),
                 'message' => $this->metaMessage
             ],
             'data' => $this->data,
